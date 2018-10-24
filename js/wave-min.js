@@ -1,0 +1,1 @@
+var wave=document.querySelector(".waveemoji");wave.addEventListener("click",function(){var e=this;e.classList.add("js-wave"),setTimeout(function(){e.classList.remove("js-wave")},1e3)});
