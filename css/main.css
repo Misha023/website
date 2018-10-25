@@ -159,7 +159,15 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 8px; }
+  margin-bottom: 8px; 
+}
+
+@media (max-width: 768px) {
+  ol, ul {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
 
 .hero-wrapper {
   display: grid;
