@@ -18,10 +18,10 @@
   }
   
   .header-group {
-    max-width: 200px;
+    max-width: 280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     justify-items: center;
     line-height: 60px;
@@ -35,6 +35,7 @@
   
   .active {
     color: #AE422F;
+    box-shadow: inset 0px -2px 0 0px #AE422F;
   }
   
   .header a:hover {
