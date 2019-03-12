@@ -1,18 +1,5 @@
-.hero-title {
-    font-weight: 800;
-    font-size: 10vh;
-    font-weight: 900;
-    line-height: 1.2em;
-    margin-bottom: 0px;
-  }
-  
-@media (max-width: 768px) {
-    .hero-title {
-        font-size: 7vh;
-    }
-}
-
 h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     font-weight: 900;
     font-size: 10vh;
     line-height: 1.2em;
@@ -26,10 +13,11 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
-  line-height: 1em;
-  font-weight: 900;
-  margin-bottom: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    line-height: 1em;
+    font-weight: 900;
+    margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
@@ -40,19 +28,22 @@ h2 {
 }
 
 h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     font-size: 32px;
+    line-height: 42px;
     font-weight: 900;
     margin: 0;
-
 }
 
 @media (max-width: 768px) {
     h3 {
         font-size: 24px;
+        line-height: 34px;
     }
 }
 
 h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     font-size: 24px;
     margin: 0;
 }
@@ -96,10 +87,12 @@ h6 {
 }
 
 p {
-  font-size: 22px;
-  line-height: 32px;
-  margin-bottom: 16px;
-  margin-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 200;
+    margin-bottom: 16px;
+    margin-top: 0px;
 }
 
 @media (max-width: 768px) {
@@ -109,8 +102,12 @@ p {
   }
 }
 
+.font-weight-700 {
+    font-weight: 700;
+}
+
 .tiny-text {
-    font-size: 8px;
+    font-size: 4px;
   }
 
 .project-title {
@@ -150,7 +147,9 @@ ol, ul {
 }
 
 li {
+    font-family: -apple-system, BlinkMacSystemFont,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
     font-size: 22px;
+    font-weight: 200;
     line-height: 32px;
 }
 
@@ -162,23 +161,20 @@ li {
 }
 
 .large-title {
-    font-size: 2.5em;
-    font-weight: 900;
     margin-bottom: 0px;
     padding-bottom: 24px;
 }
 
 @media (max-width: 768px) {
     .large-title {
-        font-size: 2em;
     }
 }
 
 .client-name {
-    font-size: 16px;
+    font-size: 15px;
     -webkit-margin-before: 0em;
     color: #222;
-    font-weight: 300;
+    font-weight: 200;
 }
   
 .job-title {

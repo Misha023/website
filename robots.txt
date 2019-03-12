@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images-old/
+Disallow: /oudeportfoliosite/
+Disallow: /oudewordpresssite/
+Disallow: /test/

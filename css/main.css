@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800'); */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
 @import url('normalize-min.css');
 @import url('/css/nav-min.css');
 @import url('/css/typography-min.css');
 
-
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
   text-rendering: optimizeLegibility;
@@ -70,7 +71,6 @@ button {
   color: white;
   background: #2455c3;
   border: 1px solid #2455c3;
-  border: none;
   outline: none;
   cursor: pointer;
   display: grid;
@@ -391,6 +391,7 @@ button:hover {
   height: auto;
   float: right;
   z-index: 0;
+  padding-top: 16px;
   padding-left: 16px;
   padding-bottom: 16px;
 }
@@ -433,6 +434,25 @@ button:hover {
   }
 }
 
+.editieappplatform {
+  display: block;
+  width: 40%;
+  height: auto;
+  float: right;
+  z-index: 0;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .editieappplatform {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 8px;
+  }
+}
+
+
 .awards-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -447,4 +467,13 @@ button:hover {
   .awards-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.checked {
+  list-style-image: url('/images/icons/check16px.svg');
+}
+
+/* Utiles */
+.left {
+  margin-left: 0;
 }

@@ -18,7 +18,7 @@
   }
   
   .header-group {
-    max-width: 280px;
+    max-width: 300px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -29,15 +29,24 @@
   }
   
   .header a {
-    color: black;
+    color: rgba(0,0,0,0.3);
+    transition: 300ms;
+  }
+
+  .header a:active {
+    color: rgba(0,0,0,1);
     transition: 300ms;
   }
   
   .active {
-    color: #AE422F;
+    color: black !important;
     box-shadow: inset 0px -2px 0 0px #AE422F;
   }
   
   .header a:hover {
     color: #AE422F;
+  }
+
+  .black {
+    color: black;
   }
